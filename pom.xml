@@ -11,29 +11,15 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.6</version>
+      <version>3.6</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
   
-  <repositories>
-  <repository>
-    <id>central</id>
-    <url>https://repo.maven.apache.org/maven2</url>
-  </repository>
-</repositories>
 
   <build>
     <finalName>AV-Bill-webapp</finalName>
-    
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-clean-plugin</artifactId>
-            <version>3.8.6</version> <!-- Use an existing version -->
-        </plugin>
-        <!-- Other plugins... -->
-    </plugins>
+   
 
   </build>
 </project>
