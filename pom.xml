@@ -17,5 +17,15 @@
   </dependencies>
   <build>
     <finalName>AV-Bill-webapp</finalName>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>3.8.6</version> <!-- Specify a version compatible with your Maven version -->
+        </plugin>
+        <!-- Other plugins... -->
+    </plugins>
+
+
   </build>
 </project>
