@@ -15,11 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
-
   <build>
     <finalName>AV-Bill-webapp</finalName>
-   
-
   </build>
 </project>
